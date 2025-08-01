@@ -294,9 +294,9 @@ const DateTime = () => {
               <span className="text-amber-400 text-sm font-medium">{t('dateTime.stepIndicator') || 'Step 3 of 4'}</span>
             </div> */}
             <h1 className="text-3xl font-bold text-white mb-3 drop-shadow-lg">
-              {t('dateTime.selectSpotTitle') || 'Select Your Perfect Spot'}
+              {t('dateTime.selectSpotTitle') || 'Reserve your spot'}
             </h1>
-            <p className="text-white/90 drop-shadow">{t('dateTime.selectSpotSubtitle') || 'Choose your ideal poolside experience'}</p>
+            <p className="text-white/90 drop-shadow">{t('dateTime.selectSpotSubtitle') || 'Schedule your sunbed stress-free'}</p>
           </div>
 
           <div className="flex justify-between items-center mb-8 bg-white/90 backdrop-blur-xl rounded-2xl p-4 border border-white/30 shadow-lg">
@@ -367,7 +367,7 @@ const DateTime = () => {
             <CardContent className="p-8">
               <div className="text-center mb-6">
                 <h3 className="text-2xl font-bold text-gray-900">
-                  {t('dateTime.poolLayoutTitle') || 'POOL LAYOUT'}
+                  {t('dateTime.poolLayoutTitle') || 'POOL Overview'}
                 </h3>
                 <p className="text-gray-600 text-sm mt-2">Tap a dot to select your spot</p>
               </div>
@@ -384,7 +384,7 @@ const DateTime = () => {
                 </div>
                 <div className="flex items-center gap-2">
                   <div className="w-4 h-4 rounded-full" style={{ backgroundColor: '#FF8C00' }}></div>
-                  <span className="text-gray-700 text-sm">Your Location</span>
+                  <span className="text-gray-700 text-sm">Your selection</span>
                 </div>
               </div>
 
